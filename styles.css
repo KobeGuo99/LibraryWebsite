@@ -360,6 +360,14 @@ button:active{
     color: #bfbfbf;
 }
 
+.books__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+}
+
+
 
 /* EXPLORE */
 
