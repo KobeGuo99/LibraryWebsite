@@ -22,25 +22,26 @@
           <li><a href="#" class="nav__link">Contact</a></li>
           <li><a href="#" class="nav__link nav__link--primary">Books</a></li>
         </ul>
+        <!-- button menu for smaller screens -->
         <button class="btn__menu" onclick="openMenu()">
-          <i class="fas fa-bars"></i>
-        </button>
-        <div class="menu__backdrop" style="visibility: hidden;">
-          <button class="btn__menu btn__menu--close" onclick="closeMenu()">
-            <i class="fas fa-times"></i>
+            <i class="fas fa-bars"></i>
           </button>
-          <ul class="menu__links">
-            <li class="menu__list">
-              <a href="#" class="menu__link" onclick="closeMenu()">Home</a>
-            </li>
-            <li class="menu__list">
-              <a href="#features" class="menu__link" onclick="closeMenu()">Books</a>
-            </li>
-            <li class="menu__list">
-              <a class="menu__link no-cursor" onclick="closeMenu()">Contacts</a>
-            </li>
-          </ul>
-        </div>
+          <div class="menu__backdrop">
+            <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+              <i class="fas fa-times"></i>
+            </button>
+            <ul class="menu__links">
+              <li class="menu__list">
+                <a class="menu__link" href="index.html" onclick="closeMenu()">Home</a>
+              </li>
+              <li class="menu__list">
+                <a class="menu__link" href="#" onclick="closeMenu()">Books</a>
+              </li>
+              <li class="menu__list">
+                <a class="menu__link no-cursor" href="#" onclick="closeMenu()">Contact</a>
+              </li>
+            </ul>
+          </div>
       </div>
     </nav>
   </section>
@@ -77,9 +78,9 @@
           </figure>
         </a>
         <div class="footer__list">
-          <a href="#" class="footer__link">Home</a>
+          <a href="index.html" class="footer__link">Home</a>
           <a class="footer__link no-cursor">About</a>
-          <a href="#features" class="footer__link">Books</a>
+          <a href="#" class="footer__link">Books</a>
           <a class="footer__link no-cursor">Contact</a>
         </div>
         <div class="footer__copyright">Copyright &copy; 2023 Library</div>
