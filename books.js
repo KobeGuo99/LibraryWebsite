@@ -83,7 +83,7 @@ function ratingsHTML(rating){
 
 function priceHTML(originalPrice, salePrice){
     /**
-     * returns the sale price if there is a sale and the original price if not
+     * returns the sale price if there is a sale and the original price if not.
      * @param {number} originalPrice the original price
      * @param {number} salePrice the sale price. null if there is no sale
      */
